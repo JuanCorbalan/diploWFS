@@ -1,0 +1,46 @@
+h1 {
+    text-align: right;
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    /*margin: 200px;
+    margin-bottom: 50px;
+    margin-left:50px;*/
+}
+
+.series {
+    width: 200px;
+    padding: 30px;
+    background-color: green;
+    float: left;
+}
+.series:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: wavy;
+}
+.peliculas {
+    width: 200px;
+    padding: 30px;
+    padding-bottom: 118px;
+    background-color: blueviolet;
+    float: left;
+}
+.perfil {
+    border:3px solid crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 700px;
+    float:right;
+    background-color: burlywood;
+    padding: 10px;
+    padding-bottom: 34px;
+}
+
+.contacto {
+    float: left;
+}

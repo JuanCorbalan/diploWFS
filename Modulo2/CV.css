@@ -1,0 +1,66 @@
+
+
+h1 {
+    font-size: 400%;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    background: radial-gradient(ellipse at center, #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%);
+    background-size: 100%;
+    color: white;
+    padding: 30px;
+    /*margin: 200px;
+    margin-bottom: 50px;
+    margin-left:50px;*/
+}
+h4 {
+    font-family: 'Quicksand', sans-serif;
+}
+.series {
+    width: 200px;
+    padding: 30px;
+    background-color: green;
+    border-radius: 5px;
+    margin-bottom:10px;
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Pacifico', cursive;
+    /*float: left;*/   
+}
+
+.series:hover {
+    background-color: red;
+    cursor: pointer;
+    box-shadow: 0 0 0 white;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: wavy;
+}
+.peliculas {
+    width: 200px;
+    padding: 30px;
+    padding-bottom: 118px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+    
+    /*float: left;*/
+}
+.perfil {
+    border:3px solid crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 700px;
+    /*float:right;*/
+    background-color: burlywood;
+    padding: 10px;
+    padding-bottom: 34px;
+    border-radius: 10px;
+    box-shadow: 2px 0 5px black;
+}
+
+.contacto {
+    float: left;
+}

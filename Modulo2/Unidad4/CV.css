@@ -1,0 +1,17 @@
+
+
+h1 {
+    font-size: 400%;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    background: radial-gradient(ellipse at center, #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%);
+    background-size: 100%;
+    color: white;
+    padding: 30px;
+    /*margin: 200px;
+    margin-bottom: 50px;
+    margin-left:50px;*/
+}
+h4 {
+    font-family: 'Quicksand', sans-serif;
+}

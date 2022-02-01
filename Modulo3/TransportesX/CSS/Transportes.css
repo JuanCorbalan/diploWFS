@@ -1,0 +1,186 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background-color: rgb(224, 86, 86);
+    padding: 1em 0;
+}
+
+header h1{
+    color: white;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    bottom: 80px;
+}
+
+nav{
+    background-color: rgb(151, 42, 42);
+    margin-bottom: 2em;
+    
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+    border-radius: 20px;
+}
+
+nav ul li a:hover{
+   background-color: rgba(0,0,0,0.3) 
+   
+}
+
+nav ul li a.activo{
+    background-color: rgba(0,0,0,0.3) 
+}
+
+footer{
+    background-color: rgb(223, 168, 168);
+    clear: both;
+    color:#333;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.holder{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+h2{
+    color: rgb(224, 86, 86);
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+
+.left{
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.homeimg{
+    margin-bottom: 1.5em;
+}
+
+.columnas{
+    overflow: hidden;
+}
+
+.bienvenidos, .testimonios{
+    box-sizing: border-box;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 2em;
+}
+
+.testimonios{
+    width: 25%;
+    
+}
+
+.testimonio{
+    background-color: rgb(223, 168, 168);
+    padding: 1em;
+}
+
+.testimonio, .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+    display: block;
+}
+
+.testimonio, .autor{
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
+
+.criterios p{
+    font-size: 0.8em;
+}
+.librosrecomendados{
+    overflow: hidden;
+}
+.librorecomendado{
+    width: 18%;
+    border: 1px solid gray;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+}
+
+.librorecomendado{
+    text-align: center;
+}
+
+.librorecomendado img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 0.8em 0 1em;
+    max-width: 70%;
+    transition:all 1s ease;
+}
+
+.librorecomendado h5, .librorecomendado h6{
+    text-align: center;
+    font-weight: normal;
+    color:rgb(224, 86, 86);
+    margin: 0;
+}
+
+.librorecomendado h5{
+    font-size: 0.9em;
+}
+.librorecomendado h6{
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.librorecomendado p{
+    font-size: 0.7em;
+    color: #444;
+    margin: 0 1em 1em;
+}
+
+.librorecomendado:first-child{
+    margin-left: 0;
+}
+
+.librorecomendado img:hover{
+    border-radius: 5%;
+    box-shadow: 0 0 0;
+    transition:all 0.3s ease;
+    border: 0.5px solid gray;
+}

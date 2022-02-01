@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="Transportes.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/Transportes.css">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,8 +14,43 @@
 </head>
 
 <body>
-    <header> 
-        <img src="img/logo.png"
-    </header>    
+    <header>
+        <div  class="holder"> 
+            <div class="imagen">
+                <img src="img/logolibro.png" width="100" alt="libro">
+            </div>
+            <h1> Blog de escritura </h1>
+        </div>
+    </header>
+    <nav> 
+        <ul class="holder">
+            <li><a class="activo" href="Index.html">Home</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Edicion.html">Edición</a></li>
+            <li><a href="Recomendaciones.html">Recomendaciones</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main class="holder">
+        <div class="homeimg"> 
+            <img src="img/home/portadalibros.jpg" alt="portadalibro">
+        </div>
+        <div class="columnas">
+            <div class="bienvenidos left"> 
+                <h2>Bienvenidos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nisi facere placeat incidunt magni quas quae impedit architecto esse velit inventore perspiciatis accusamus eius ea dolores, quia sint iusto enim.</p>
+            </div> 
+            <div class="testimonios right"> 
+                <h2>Testimonios</h2>
+                <div class= "testimonio"> 
+                    <span class="cita">Gran Blog</span> 
+                    <span class="autor">Carlos Borges - Lectores.net</span> 
+                </div>
+            </div> 
+        </div>
+    </main>
+    <footer class="holder">
+        <p>Diseñado por Juan Corbalan -&copy; 2022 </p>
+    </footer>
 </body>
 </html>

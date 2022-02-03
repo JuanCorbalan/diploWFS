@@ -24,30 +24,47 @@
     </header>
     <nav> 
         <ul class="holder">
-            <li><a class="activo" href="Index.html">Home</a></li>
+            <li><a href="Index.html">Home</a></li>
             <li><a href="Blog.html">Blog</a></li>
             <li><a href="Edicion.html">Edición</a></li>
             <li><a href="Novedades.html">Novedades</a></li>
             <li><a href="Recomendaciones.html">Recomendaciones</a></li>
-            <li><a href="Contacto.html">Contacto</a></li>
+            <li><a class="activo" href="Contacto.html">Contacto</a></li>
         </ul>
     </nav>
     <main class="holder">
-        <div class="homeimg"> 
-            <img src="img/home/portadalibros.jpg" alt="portadalibro">
+        <div class="columna left">
+            <h2> Contacto Rapido </h2>
+            <form action="" method=""class="formulario">
+                <p>
+                    <label for="">Nombre</label>
+                    <input type="text"/>
+                </p>
+                <p>
+                    <label for="">Email</label>
+                    <input type="email"/>
+                </p>
+                <p>
+                    <label for="">Telefono</label>
+                    <input type="text"/>
+                </p>
+                <p>
+                    <label for="Comentario">Comentario</label>
+                    <textarea id="comentario"></textarea>
+                </p>
+                <p class="acciones"><input type="submit" value="Enviar"</p>
+            </form>
         </div>
-        <div class="columnas">
-            <div class="bienvenidos left"> 
-                <h2>Bienvenidos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nisi facere placeat incidunt magni quas quae impedit architecto esse velit inventore perspiciatis accusamus eius ea dolores, quia sint iusto enim.</p>
-            </div> 
-            <div class="testimonios right"> 
-                <h2>Testimonios</h2>
-                <div class= "testimonio"> 
-                    <span class="cita">Gran Blog</span> 
-                    <span class="autor">Carlos Borges - Lectores.net</span> 
-                </div>
-            </div> 
+        <div class="columna right">
+            <h2>Otras vias de contacto</h2>
+            <p>Tambien se pueden comunicar con nosotros ....</p>
+            <ul>
+                <li>Telefono:</li>
+                <li>Email:correo@hotmail.com.ar</li>
+                <li>Facebook:</li>
+                <li>Twitter:</li>
+                <li>Instagram:</li>
+            </ul>
         </div>
     </main>
     <footer class="holder">

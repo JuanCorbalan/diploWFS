@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="Ejercicio1.css">
+</head>
+<body>
+    <h3> Cuadrados que cambian el fondo del documento al cliquear </h3>
+    <div class='contenedor'>
+        <div class="cuadradoA">
+        </div>
+        <div class="cuadradoB">
+        </div>
+        <div class="cuadradoC">
+        </div>
+    </div>
+    
+
+    <script> 
+        var contenedor = document.getElementsByClassName("contenedor")[0];
+        var cuadradoA = document.getElementsByClassName("cuadradoA")[0];
+        var cuadradoB = document.getElementsByClassName("cuadradoB")[0];
+        var cuadradoC = document.getElementsByClassName("cuadradoC")[0]; 
+        cuadradoA.onclick = function(event){
+            contenedor.style.backgroundColor='#0000FF';
+        }
+        cuadradoB.onclick = function(event){
+            contenedor.style.backgroundColor='#FF0000';
+        }
+        cuadradoC.onclick = function(event){
+            contenedor.style.backgroundColor='rgb(0,128,0)';
+        }
+    </script>
+</body>
+</html>

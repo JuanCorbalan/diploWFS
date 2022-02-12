@@ -1,0 +1,32 @@
+.cuadradoA{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: blue;
+    border: 2px solid black;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.cuadradoB{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: red;
+    border: 2px solid black;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.cuadradoC{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: green;
+    border: 2px solid black;
+    margin: 20px;
+    cursor: pointer;
+}
+.contenedor{
+    background-color: bisque;
+}

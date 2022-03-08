@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../styles/components/pages/RecomendacionesPage.css'
 const RecomendacionesPage = (props) => {
     return (
         <section className="holder">

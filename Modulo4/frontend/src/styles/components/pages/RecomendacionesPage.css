@@ -1,0 +1,59 @@
+.criterios p{
+    font-size: 0.8em;
+}
+.librosrecomendados{
+    overflow: hidden;
+}
+.librorecomendado{
+    width: 18%;
+    border: 1px solid gray;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+}
+
+.librorecomendado{
+    text-align: center;
+}
+
+.librorecomendado img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 0.8em 0 1em;
+    max-width: 70%;
+    transition:all 1s ease;
+}
+
+.librorecomendado h5, .librorecomendado h6{
+    text-align: center;
+    font-weight: normal;
+    color:rgb(224, 86, 86);
+    margin: 0;
+}
+
+.librorecomendado h5{
+    font-size: 0.9em;
+}
+.librorecomendado h6{
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.librorecomendado p{
+    font-size: 0.7em;
+    color: #444;
+    margin: 0 1em 1em;
+}
+
+.librorecomendado:first-child{
+    margin-left: 0;
+}
+
+.librorecomendado img:hover{
+    border-radius: 5%;
+    box-shadow: 0 0 0;
+    transition:all 0.3s ease;
+    border: 0.5px solid gray;
+}

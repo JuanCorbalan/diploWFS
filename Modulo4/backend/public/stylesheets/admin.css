@@ -1,0 +1,15 @@
+.container{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+.caja{
+    width: 500px;
+    padding: 3em;
+    border-style: solid;
+    border-color: red;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: 0 0 50px rgba(0,0,0,0.4);
+
+}
